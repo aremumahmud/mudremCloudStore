@@ -4,8 +4,8 @@
 Mudrem is a cloud based storage service for storage of all file types  namely
 
 - [x] Script files [^1]
-- [x] Script files [^2]
-- [x] Script files [^3]
+- [x] media files [^2]
+- [x] coding files [^3]
 
 ## Components
 
