@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Mudrem | upload</title>
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'><link rel="stylesheet" href="/assets/css/style.css">
+<link rel="icon" href="/assets/img/brand/favicon.png" type="image/png"><!-- Font Awesome -->
+    <link rel="stylesheet" href="/assets/libs/@fortawesome/fontawesome-free/css/all.min.css">
+    <!-- Quick CSS -->
+    <link rel="stylesheet" href="/assets/css/quick-website.css" id="stylesheet">
+</head>
+<body>
+     <!-- Navbar -->
+        <div class="container header">
+            <!-- Brand -->
+            <a class="navbar-brand" href="index.html">
+                <img alt="Image placeholder" src="/assets/img/brand/dark.svg" id="navbar-logo" width="150px" height="150px">
+            </a>
+         </div>
+         </div>
+<!-- partial:index.partial.html -->
+<form action="https://fileUploadService.aremzy.repl.co/api/uploadToSpace" method="post" enctype="multipart/form-data">
+
+<input class="none" type="text" name="url1" value="http://google.com/"/>
+<input class="none" type="text" name="url" value="https://mongodbService.aremzy.repl.co/addRecord"/>
+<input class="none" type="text" name="space" id="spaceId"/>
+<div class="container add" >
+<div class="row it">
+<div class="col-sm-offset-1 col-sm-10 exp" id="one">
+<h1>
+Upload files
+</h1><br>
+<div class="row">
+  <div class="col-sm-offset-4 col-sm-4 form-group">
+    <h3 class="text-center">My Documents</h3>
+  </div><!--form-group-->
+</div><!--row-->
+<div id="uploader">
+<div class="row uploadDoc">
+  <div class="col-sm-3">
+    <div class="docErr">Please upload valid file</div><!--error-->
+    <div class="fileUpload btn btn-orange">
+     <i class="bi bi-upload icon"></i> <span class="upl" id="upload">Upload document</span>
+      <input type="file" class="upload up" id="up" onchange="readURL(this);" name="image1" required="true"/>
+    </div><!-- btn-orange -->
+  </div><!-- col-3 -->
+  <div class="col-sm-8">
+    <input type="text" class="form-control" name="note1" placeholder="Note">
+  </div><!--col-8-->
+  <div class="col-sm-1"><a class="btn-check"><i class="fa fa-times"></i></a></div><!-- col-1 -->
+</div><!--row-->
+</div>
+<!--uploader-->
+<div class="text-center">
+<a class="btn btn-new"><i class="fa fa-plus"></i> Add new</a>
+<input type="submit" class="btn btn-next" value="Submit">
+</div>
+</div><!--one-->
+</div><!-- row -->
+</div><!-- container -->
+</form>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script><script  src="/assets/js/script.js"></script>
+</body>
+</html>
