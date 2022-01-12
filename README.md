@@ -9,9 +9,9 @@ Mudrem is a cloud based storage service for storage of all file types  namely
 
 ## Components
 
-[^1] Mongodb Service
-[^2] Auth Service
-[^3] Fileupload Service
+- Mongodb Service
+- Auth Service
+- Fileupload Service
 
 ### Mongodb Service
   
