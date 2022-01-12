@@ -96,10 +96,10 @@
                                 </div>
                             </div>
                             <div>
-                                <span class="h6"><%= file.FileRoutePath %></span>
+                                <p class="h6" style="width:130px"><%= file.FileRoutePath %></p>
                                 <p class="text-sm text-muted mb-0"><%= file.FileRoutePath.slice(file.FileRoutePath.indexOf('.')+1) %> file</p>
                             </div>
-                               <div style="margin-left:250px;position:fixed">
+                               <div style="margin-left:40px;">
                                 <div class="icon icon-shape rounded-circle bg-success text-white mr-4">
                                   <a href="<%= "https://fileUploadService.aremzy.repl.co/api/getFromSpace/?space="+space+"&file="+file.FileRoutePath %>">  <i data-feather="download"></i></a>
                                 </div>
